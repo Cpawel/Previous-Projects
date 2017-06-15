@@ -1,0 +1,36 @@
+Pawel Derkacz - pd304
+Deep Patel - dp767
+testplan.txt for assignment 2
+
+<input inside of file> || <number of splits> || <output -> expected and correct from both programs>
+
+<aa> || <0> || <Cannot have 0 parts. Minimum is 1: Invalid argument>
+<aa> || <1> || <File1: aa>
+<aa> || <2> || <File1: aa, File2: ""(empty)>
+<aa> || <3> || <File1: a, File2: a, File3: "">
+<aa> || <10> || <File1: aa, other files not made>
+
+<oooo> || <1> || <File1: 4o>
+<oooo> || <2> || <File1: 3o, File2: o>
+<oooo> || <3> || <File1: 3o, File2: o, File3: "">
+<oooo> || <4> || <File1: oo, File2: o, File3: o, File4: "">
+<oooo> || <5> || <File1: o, File2: o, File3: o, File4: o, File5: "">
+<oooo> || <6> || <File1: 4o, rest not made>
+
+<hhhhhhhiiiiii> || <2> || <File1: 7h, File2: 6i>
+
+<jjjjjjjjoooaaaaanrr> || <1> || <File1: 8j3o5anrr>
+<jjjjjjjjoooaaaaanrr> || <2> || <File1: 8joo, File2: o5anrr>
+
+
+Input:= <AaAa aaaaaaa AA98515A4A7A33A8A567A A -=/' A aaaa AAA aa A a> (60 bytes including invisible end byte)
+
+<Input> || <1> || <File1: AaA8a10A4a3AaaAa>
+<Input> || <2> || <File1: AaA8a7A, File2: 3A4a3AaaAa>
+<Input> || <3> || <File1: AaA8aAA, File2: 7A, File3: A4a3AaaAa>
+<Input> || <4> || <File1: AaA8aAA, File2: 5A, File3: 3Aa, File4: 3a3AaaAa>
+<Input> || <5> || <File1: AaA8a, File2: 4A, File3: 5A, File4: A4a, File5: 3AaaAa>
+<Input> || <6> || <File1: AaA6a, File2: aaAA, File3: 5A, File4: AA, File5: A4aA, File6: AAaaAa>
+<Input> || <7> || <File1: AaA8a, File2: AA, File3: 4A, File4: 3A, File5: A, File6: 4a3A, File7: aaAa>
+<Input> || <8> || <File1: AaA7a, File2: aAA, File3: 3A, File4: AA, File5: AA, File6: Aaa, File7: aa3A, File8: aaAa>
+<Input> || <9> || <File1: AaA8a, File2: AA, File3: AA, File4: 3A, File5: AA, File6: "" File7: A4a, File8: 3Aa, File9: aAa>
