@@ -1,0 +1,19 @@
+﻿Test cases for tokenizer.c
+[input] {output} [expected]
+
+[0700] {octal 0700} [octal 0700]
+[1234] {integer 1234} [integer 1234]
+[3.14159e-10] {float 3.14159e-10} [float 3.14159e-10]
+[0700 1234 3.14159e-10] {octal 0700 '\n' integer 1234 '\n'  float 3.14159e-10} [output is as expected]
+[\n] {Invalid character found: [0x0A]} [Invalid character found: [0x0A]]
+[\a] {Invalid character found: [0x07]} [Invalid character found: [0x07]]
+
+[0700\a1234\e3.14159e-10] {octal 0700 '\n' Invalid character found : [0x07] '\n' integer 1234 '\n' Invalid character found: [0x1B] '\n' float 3.14159e-10} [Output as expected]
+
+[0xFFFFFFFFFFFFF 0xEEEEEEEEEE 0xNN ] {hex 0xFFFFFFFFFFFFF '\n' hex 0xEEEEEEEEEE '\n'     hex 0x '\n' Invalid character found: [0x4E] '\n' Invalid character found: [0x4E]} [Output as expected, though 0x by itself probably should not be treated as hex.]
+
+[14159e-10] {float 14159e-10} [float 14159e-10]
+[.707 0.707 0.707.14] {float .707 '\n' float 0.707 '\n' malformed 0.707. '\n' integer 14} [output as expected]
+
+
+This may seem like a meager amount of testing, but I tested more cases without going through the tediousness of writing it all here. I also have faith in my code, for the most part. Note: 1 zero will output a state of “zero”, multiple zeros will output a state of “octal”. Inserting a + or – without the context of a float will give a state of “malformed”.
