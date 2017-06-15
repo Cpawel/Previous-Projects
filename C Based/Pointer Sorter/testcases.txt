@@ -1,0 +1,20 @@
+﻿Pawel Derkacz
+Systems Programming - CS214
+09/18/2016
+
+
+Input | Output | Expected Output ("<--" Denotes Expected Output == Output)
+
+NOTE: quotes are not input unless quotes are in the quotes
+
+""this1stream22contains.,..3five words .,., "" | "contains", "five", "stream", "this", "words" | <--
+
+"5565" | "No string was found!" | <--
+
+",.,..l" | "l" | <--
+
+",.,...l./." | "l" | <--
+
+""this'/t'is'/n'a'/0'test'/a'"" | "a", "a", "is", "n", "t", "test", "this" | <--
+
+"this'/t'is'/n'a'/0'test'/a'" | "a", "na", "test", "this", "tis" | "a", "a", "is", "n", "t", "test", "this"
