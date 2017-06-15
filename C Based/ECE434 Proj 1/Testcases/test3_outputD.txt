@@ -1,0 +1,34 @@
+Hi I'm process 24320 and my parent is 24317.
+Hi I'm process 24323 and my parent is 24317.
+Hi I'm process 24317 and my parent is 24313.
+Hi I'm process 24319 and my parent is 24315.
+Hi I'm process 24332 and my parent is 24325.
+Hi I'm process 24333 and my parent is 24329.
+Hi I'm process 24334 and my parent is 24329.
+Hi I'm process 24328 and my parent is 24322.
+Hi I'm process 24335 and my parent is 24331.
+Hi I'm process 24321 and my parent is 24315.
+Hi I'm process 24329 and my parent is 24318.
+Hi I'm process 24336 and my parent is 24324.
+Hi I'm process 24315 and my parent is 24313.
+Hi I'm process 24322 and my parent is 24314.
+Hi I'm process 24313 and my parent is 24311.
+Hi I'm process 24326 and my parent is 24322.
+Hi I'm process 24338 and my parent is 24324.
+Hi I'm process 24330 and my parent is 24325.
+Hi I'm process 24324 and my parent is 24316.
+Hi I'm process 24325 and my parent is 24314.
+Hi I'm process 24314 and my parent is 24311.
+Hi I'm process 24337 and my parent is 24331.
+Hi I'm process 24339 and my parent is 24327.
+Hi I'm process 24340 and my parent is 24327.
+Hi I'm process 24311 and my parent is 24309.
+Hi I'm process 24318 and my parent is 24312.
+Hi I'm process 24327 and my parent is 24316.
+Hi I'm process 24331 and my parent is 24318.
+Hi I'm process 24316 and my parent is 24312.
+Hi I'm process 24312 and my parent is 24309.
+Hi I'm process 24309 and my parent is 21414.
+Max= 151
+Min= 0
+Sum= 83612

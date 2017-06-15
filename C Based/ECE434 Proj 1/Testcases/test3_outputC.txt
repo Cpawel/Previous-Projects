@@ -1,0 +1,24 @@
+Hi I'm process 29831 and my parent is 29829.
+Hi I'm process 29832 and my parent is 29829.
+Hi I'm process 29833 and my parent is 29829.
+Hi I'm process 29834 and my parent is 29829.
+Hi I'm process 29846 and my parent is 29829.
+Hi I'm process 29847 and my parent is 29829.
+Hi I'm process 29835 and my parent is 29829.
+Hi I'm process 29839 and my parent is 29829.
+Hi I'm process 29848 and my parent is 29829.
+Hi I'm process 29836 and my parent is 29829.
+Hi I'm process 29840 and my parent is 29829.
+Hi I'm process 29837 and my parent is 29829.
+Hi I'm process 29849 and my parent is 29829.
+Hi I'm process 29841 and my parent is 29829.
+Hi I'm process 29842 and my parent is 29829.
+Hi I'm process 29850 and my parent is 29829.
+Hi I'm process 29838 and my parent is 29829.
+Hi I'm process 29843 and my parent is 29829.
+Hi I'm process 29845 and my parent is 29829.
+Hi I'm process 29844 and my parent is 29829.
+Hi I'm process 29829 and my parent is 28453.
+Max= 151
+Min= 35
+Sum= 85000

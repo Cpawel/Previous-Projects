@@ -1,0 +1,23 @@
+Hi I'm process 28561 and my parent is 28560.
+Hi I'm process 28560 and my parent is 28559.
+Hi I'm process 28559 and my parent is 28558.
+Hi I'm process 28558 and my parent is 28557.
+Hi I'm process 28557 and my parent is 28556.
+Hi I'm process 28556 and my parent is 28555.
+Hi I'm process 28555 and my parent is 28554.
+Hi I'm process 28554 and my parent is 28553.
+Hi I'm process 28553 and my parent is 28552.
+Hi I'm process 28552 and my parent is 28551.
+Hi I'm process 28551 and my parent is 28550.
+Hi I'm process 28550 and my parent is 28549.
+Hi I'm process 28549 and my parent is 28548.
+Hi I'm process 28548 and my parent is 28547.
+Hi I'm process 28547 and my parent is 28546.
+Hi I'm process 28546 and my parent is 28545.
+Hi I'm process 28545 and my parent is 28544.
+Hi I'm process 28544 and my parent is 28543.
+Hi I'm process 28543 and my parent is 28541.
+Hi I'm process 28541 and my parent is 28453.
+Max= 151
+Min= 35
+Sum= 85000

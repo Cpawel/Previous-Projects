@@ -1,0 +1,6 @@
+Hi I'm process 24293 and my parent is 24292.
+Hi I'm process 24294 and my parent is 24292.
+Hi I'm process 24292 and my parent is 21414.
+Max= 151
+Min= 35
+Sum= 850
